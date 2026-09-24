@@ -10,7 +10,8 @@ export const person = {
   /** Put his real birthday here (year-month-day) */
   birthDate: "1992-09-25",
   from: "your little brother",
-  tagline: "Moin Bhai works in the merchant navy. Right now he is home.",
+  tagline:
+    "Another year of you, Bhai. Thank you for every mile you sail, and every day you come home to us.",
 };
 
 export const photos = [

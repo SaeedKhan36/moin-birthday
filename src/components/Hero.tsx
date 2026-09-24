@@ -28,8 +28,7 @@ export function Hero({ birthday, age }: { birthday: boolean; age: number }) {
           </h1>
 
           <p className="mt-5 max-w-xl text-base leading-relaxed text-muted sm:text-lg">
-            {person.tagline} This small website is for his birthday, with
-            timers, photos, and wishes.
+            {person.tagline}
           </p>
 
           <div className="mt-8 flex flex-wrap gap-3">
