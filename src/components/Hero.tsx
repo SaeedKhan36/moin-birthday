@@ -50,15 +50,12 @@ export function Hero({ birthday, age }: { birthday: boolean; age: number }) {
           <div className="float-b absolute -right-2 bottom-16 z-20 hidden rounded-2xl border-[1.5px] border-line bg-[#bae6fd] px-3 py-2 text-xs font-semibold shadow-[3px_3px_0_#1c1917] sm:block">
             Home now
           </div>
-          <div className="float-c absolute right-6 top-0 z-20 hidden rounded-2xl border-[1.5px] border-line bg-[#ccfbf1] px-3 py-2 text-xs font-semibold shadow-[3px_3px_0_#1c1917] md:block">
-            Love you
-          </div>
 
           <div className="ink-card relative overflow-hidden bg-[#0c4a6e] p-2 sm:p-3">
             <div className="relative aspect-[4/5] overflow-hidden rounded-[calc(var(--radius-card)-0.35rem)]">
               <img
                 src="/photos/bridge.jpg"
-                alt="Moin on the ship bridge"
+                alt="Moin Bhai on the ship bridge"
                 className="h-full w-full object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#0c4a6e]/70 via-transparent to-transparent" />

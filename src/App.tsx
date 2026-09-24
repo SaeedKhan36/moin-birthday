@@ -1,4 +1,5 @@
 import { Confetti } from "~/components/Confetti";
+import { BrotherTalk } from "~/components/BrotherTalk";
 import { Countdown } from "~/components/Countdown";
 import { Gallery } from "~/components/Gallery";
 import { Hero } from "~/components/Hero";
@@ -26,6 +27,7 @@ export default function App() {
         />
         <Timers lived={clock.lived} age={clock.age} />
         <Story />
+        <BrotherTalk />
         <Gallery />
         <Wishes />
       </main>

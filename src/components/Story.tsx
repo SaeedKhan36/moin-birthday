@@ -8,14 +8,14 @@ export function Story() {
         <div className="grid gap-0 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="p-6 sm:p-10">
             <p className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-muted">
-              About him
+              About Moin Bhai
             </p>
             <h2 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">
-              He works in the{" "}
+              Moin Bhai works in the{" "}
               <span className="text-gradient">merchant navy</span>
             </h2>
             <p className="mt-4 max-w-xl leading-relaxed text-muted">
-              Most of the year he is on a ship. Right now he is home with
+              Most of the year Moin Bhai is on a ship. Right now he is home with
               family. This website is a simple birthday gift from his brother.
             </p>
 
@@ -38,7 +38,7 @@ export function Story() {
           <div className="relative min-h-[280px] border-t-[1.5px] border-line lg:border-l-[1.5px] lg:border-t-0">
             <img
               src="/photos/sunset-deck.jpg"
-              alt="Moin on the ship"
+              alt="Moin Bhai on the ship"
               className="absolute inset-0 h-full w-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-[#0c4a6e]/75 to-transparent" />
@@ -70,8 +70,11 @@ export function Wishes() {
           Wishes
         </p>
         <h2 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">
-          Birthday <span className="text-gradient">messages</span>
+          More love from <span className="text-gradient">your brother</span>
         </h2>
+        <p className="mt-3 text-muted">
+          Small birthday wishes, written just for you.
+        </p>
       </div>
 
       <div className="mt-10 grid gap-4 md:grid-cols-3">
@@ -98,7 +101,7 @@ export function Wishes() {
             Happy Birthday, {person.nickname}.
           </p>
           <p className="mt-3 text-muted">
-            Made with love by your brother.
+            Built with love by your little brother. Always.
           </p>
         </div>
       </div>

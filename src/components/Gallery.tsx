@@ -12,7 +12,7 @@ export function Gallery() {
           Photos
         </p>
         <h2 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">
-          Some <span className="text-gradient">photos</span> of Moin
+          Some <span className="text-gradient">photos</span> of Moin Bhai
         </h2>
         <p className="mt-3 text-muted">
           A few moments from the ship and from home. Tap a photo to read the note.
