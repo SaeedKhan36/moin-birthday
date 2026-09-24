@@ -46,7 +46,7 @@ export function Timers({ lived, age }: { lived: TimeParts; age: number }) {
             <span className="text-gradient">{person.firstName}</span>
           </h2>
           <p className="mt-3 max-w-xl text-muted">
-            These numbers update every second from the day he was born.
+            Every second since the day you came into this world.
           </p>
         </div>
         <div className="ink-card bg-white px-4 py-3 text-sm font-medium text-muted">

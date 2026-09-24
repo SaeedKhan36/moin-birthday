@@ -19,7 +19,7 @@ export function Hero({ birthday, age }: { birthday: boolean; age: number }) {
           </div>
 
           <p className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-muted">
-            Made by {person.from}
+            From {person.from}
           </p>
 
           <h1 className="font-display text-[clamp(2.6rem,8vw,4.75rem)] font-bold leading-[0.95] tracking-tight">

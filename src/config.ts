@@ -40,14 +40,14 @@ export const photos = [
     src: "/photos/casual.jpg",
     alt: "Moin Bhai at home",
     title: "Back at home",
-    note: "Shore leave mode. Same smile, no uniform needed.",
+    note: "Same smile, no uniform. Just home.",
     tag: "Home",
   },
   {
     src: "/photos/gym.jpg",
     alt: "Moin Bhai at the gym",
     title: "Gym time",
-    note: "Staying strong on land too, not only on the ship.",
+    note: "Strong on land too, not only on the ship.",
     tag: "Home",
   },
 ] as const;
@@ -56,17 +56,17 @@ export const milestones = [
   {
     label: "Job",
     value: "Merchant Navy",
-    hint: "He works on ships",
+    hint: "Out on the ships",
   },
   {
     label: "Now",
     value: "Home",
-    hint: "Home with family for now",
+    hint: "With family for a while",
   },
   {
-    label: "From",
-    value: "Brother",
-    hint: "This site is a birthday gift",
+    label: "Always",
+    value: "Our Bhai",
+    hint: "Loved every day",
   },
 ] as const;
 
@@ -101,7 +101,7 @@ export const brotherTalks = [
   },
   {
     title: "For this birthday",
-    text: "This website is my small gift. I cannot sail a ship like you, but I can build this for you. Happy birthday, Moin Bhai. May this year bring you peace, health, and more days at home.",
+    text: "Happy birthday, Moin Bhai. I hope this year is kinder to you. More calm nights. More safe journeys. And more days with us at home.",
   },
 ] as const;
 

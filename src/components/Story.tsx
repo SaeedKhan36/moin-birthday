@@ -8,15 +8,15 @@ export function Story() {
         <div className="grid gap-0 lg:grid-cols-[1.1fr_0.9fr]">
           <div className="p-6 sm:p-10">
             <p className="mb-3 text-sm font-semibold uppercase tracking-[0.18em] text-muted">
-              About Moin Bhai
+              Our brother
             </p>
             <h2 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">
-              Moin Bhai works in the{" "}
-              <span className="text-gradient">merchant navy</span>
+              Far at sea.{" "}
+              <span className="text-gradient">Close to our hearts.</span>
             </h2>
             <p className="mt-4 max-w-xl leading-relaxed text-muted">
-              Most of the year Moin Bhai is on a ship. Right now he is home with
-              family. This website is a simple birthday gift from his brother.
+              Most of the year Moin Bhai is on a ship. Right now he is home,
+              and that is enough reason to celebrate.
             </p>
 
             <div className="mt-8 grid gap-3 sm:grid-cols-3">
@@ -72,9 +72,9 @@ export function Wishes() {
         <h2 className="font-display text-3xl font-bold tracking-tight sm:text-4xl">
           More love from <span className="text-gradient">your brother</span>
         </h2>
-        <p className="mt-3 text-muted">
-          Small birthday wishes, written just for you.
-        </p>
+          <p className="mt-3 text-muted">
+            A few more things from me to you.
+          </p>
       </div>
 
       <div className="mt-10 grid gap-4 md:grid-cols-3">
@@ -101,7 +101,7 @@ export function Wishes() {
             Happy Birthday, {person.nickname}.
           </p>
           <p className="mt-3 text-muted">
-            Built with love by your little brother. Always.
+            From your little brother. Always.
           </p>
         </div>
       </div>

@@ -15,7 +15,7 @@ export function Gallery() {
           Some <span className="text-gradient">photos</span> of Moin Bhai
         </h2>
         <p className="mt-3 text-muted">
-          A few moments from the ship and from home. Tap a photo to read the note.
+          Moments from the ship, and from home.
         </p>
       </div>
 

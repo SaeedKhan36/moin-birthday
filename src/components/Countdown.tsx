@@ -31,8 +31,8 @@ export function Countdown({ birthday, turning, countdown }: Props) {
         </h2>
         <p className="mx-auto mt-3 max-w-lg text-muted">
           {birthday
-            ? `Today is ${person.firstName}'s birthday. Enjoy the day!`
-            : "Days, hours, minutes, and seconds left for the birthday."}
+            ? `Today is ${person.firstName}'s day. Enjoy every bit of it.`
+            : "We are counting the days until we celebrate you again."}
         </p>
       </div>
 

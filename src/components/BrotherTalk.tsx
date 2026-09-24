@@ -12,7 +12,7 @@ export function BrotherTalk() {
           Words I want to <span className="text-gradient">tell you</span>
         </h2>
         <p className="mt-3 text-muted">
-          From your little brother. Simple words from the heart.
+          From your little brother, with love.
         </p>
       </div>
 
@@ -30,9 +30,8 @@ export function BrotherTalk() {
 
           <p className="text-[1.05rem] leading-relaxed text-muted">
             Today is your birthday, and I keep thinking about us. You are older.
-            You went to the sea. I stayed and learned to code. Different paths,
-            same blood. Distance never made you less my brother. It only made
-            me miss you more.
+            You went to the sea. I stayed on land. Different paths, same blood.
+            Distance never made you less my brother. It only made me miss you more.
           </p>
           <p className="mt-4 text-[1.05rem] leading-relaxed text-muted">
             When you are away, I look at your photos and feel proud. When you
